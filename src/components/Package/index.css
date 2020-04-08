@@ -1,0 +1,43 @@
+.h2Style {
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.h3Style {
+    font-size: 1.5rem;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.packageStyle {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 90%;
+    margin: auto;
+}
+
+.packageImage {
+    width: 250px;
+    height: 250px;
+}
+
+.packageCity {
+    font-size: 1.25rem;
+    color: green;
+    padding: 1rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.button {
+    font-size: 1.5rem;
+    background-color: grey;
+    display: block;
+    border: none;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+
+

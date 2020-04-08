@@ -1,0 +1,60 @@
+.h2Style {
+    padding-top: 2rem;
+    font-size: 2rem;
+    color: #000;
+    text-align: center;
+}
+
+.h3Style {
+    font-size: 1.5rem;
+    color: grey;
+    margin-top: -1rem;
+    margin-bottom: 1.25rem;
+    text-align: center;
+}
+
+.destinationStyle {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 90%;
+    margin: 0 auto;
+}
+
+.destinationImage {
+    width: 250px;
+    height: 250px;
+}
+
+.destinationCity {
+    font-size: 1.25rem;
+    color: green;
+    padding: 1rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.button {
+    font-size: 1.5rem;
+    color: white;
+    background-color: grey;
+    display: block;
+    border: none;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .destinationStyle {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-self: center;
+    }
+
+    .button {
+        font-size: 1.5rem;
+        width: 200px;
+        margin: auto;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+}

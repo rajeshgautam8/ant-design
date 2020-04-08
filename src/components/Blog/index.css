@@ -1,0 +1,46 @@
+.h2Style {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.h3Style {
+    font-size: 1.5rem;
+    color: #0f4;
+    margin-top: '-0.5rem';
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.blogStyle {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 80vw;
+    margin: auto;
+}
+
+.blogListStyle {
+    padding: 2rem;
+}
+
+.blogName, .blogDate {
+    text-align: center;
+}
+
+.blogContent {
+    text-align: justify;
+}
+
+.button {
+    font-size: 1.5rem;
+    color: white;
+    background-color: grey;
+    display: block;
+    width: auto;
+    border: none;
+    margin: auto;
+    padding: 0.5rem 4rem 0.5rem 4rem;
+    border-radius: 2rem;
+    font-weight: bold;
+}

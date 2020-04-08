@@ -1,0 +1,17 @@
+.antSliderContainer {
+    position: relative;
+}
+
+.antSliderImage {
+    width: 100%;
+    height: 504px;
+}
+
+.antSliderContent {
+    position: absolute;
+    top: 220px;
+    left: 40%;
+    color: rgb(49, 0, 128);
+    font-size: 4rem;
+    text-transform: capitalize;
+}

@@ -1,0 +1,17 @@
+.mainNavigation {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    position: sticky;
+    top: 0;
+    background-color:#fff;
+    z-index: 1;
+}
+
+.navigationStyle {
+    background-color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+}
+
